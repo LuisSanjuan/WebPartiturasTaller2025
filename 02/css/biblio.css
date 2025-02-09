@@ -1,0 +1,21 @@
+.score-record {
+  display: grid;
+  grid-template-columns: 4rem auto;
+}
+
+.score-link a::after {
+  content: "[PDF]";
+}
+
+.score-info p {
+  display: inline;
+}
+
+.score-info p::after {
+  content: ".";
+}
+
+.composer {
+  font-variant: small-caps;
+}
+

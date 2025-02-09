@@ -1,0 +1,30 @@
+.score-link {
+  width: min-content;
+}
+
+.score-link a {
+  display: inline-block;
+  border: 1px solid black;
+  border-top-right-radius: 10px;
+  padding: 0.5rem;
+}
+
+.score-link a::after {
+  content: "?";
+}
+
+.score-link a:hover::after {
+  content: "pdf";
+}
+
+.score-link+.score-info {
+  display: none;
+  border: 1px solid black;
+  border-top-right-radius: 5px;
+  padding: 0.5rem;
+}
+
+.score-link:hover+.score-info {
+  display: inline-block;
+}
+

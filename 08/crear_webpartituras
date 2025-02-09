@@ -1,0 +1,16 @@
+#!/usr/bin/env bash 
+
+SCORE_DIR="$1"
+
+# activate Python virtual environment in parent dir
+source ../.venv/bin/activate
+
+# execute partituras.py in ./08/
+python partituras.py "$SCORE_DIR"
+
+# deactivate environment
+deactivate
+
+# open webpage in browser
+open partituras.html
+

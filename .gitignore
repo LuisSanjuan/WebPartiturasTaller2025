@@ -1,0 +1,11 @@
+webpartituras.md
+*.bak
+*.~
+.mscbackup/
+.mypy_cache/
+.pytest_cache/
+__pycache__/
+.venv/
+*/img/*.png
+!*icon*.png
+

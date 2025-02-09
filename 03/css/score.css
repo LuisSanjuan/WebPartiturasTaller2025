@@ -1,0 +1,50 @@
+*, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: darkred;
+}
+
+.score-archive {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  justify-content: center;
+  grid-gap: 1.5rem;
+}
+
+.score-record {
+  display: grid;
+  grid-template-rows: 420px auto;
+  width: 300px;
+  border: 3px solid yellow;
+  background-color: navajowhite;
+  padding: 1rem 0;
+}
+
+.score-link {
+  display: grid;
+  place-content: center;
+  background-image: url(img/blank-score.jpg);
+  background-size: 280px 420px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.score-link a {
+  display: inline-block;
+  content: url(img/download-icon.png);
+  transform: scale(80%);
+}
+
+.score-info {
+  display: grid;
+  place-content: center;
+  margin-top: 1rem;
+}
+
+.score-info p {
+  margin: 0;
+  text-align: center;
+  padding: 0.3rem 0;
+}
