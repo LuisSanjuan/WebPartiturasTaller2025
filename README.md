@@ -5,7 +5,7 @@ una página web de partituras con carácter didáctico.
 
 # Organización del repositorio
 
-`doc`
+[`doc/webpartituras.pdf`](doc/webpartituras.pdf)
 : El documento principal en formato pdf.
 
 `01`, `02`, ...
@@ -17,5 +17,5 @@ una página web de partituras con carácter didáctico.
 # Licencia
 
 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) (Luis
-Sanjuán \copyright\ 2025)
+Sanjuán © 2025)
 
