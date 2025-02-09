@@ -1,7 +1,7 @@
 # Descripción
 
-Taller con caracter didáctico sobre la compilación en lenguaje Python de
-una página web de partituras con carácter didáctico.
+Taller de caracter didáctico sobre la compilación en lenguaje Python de
+una página web de partituras.
 
 # Organización del repositorio
 
